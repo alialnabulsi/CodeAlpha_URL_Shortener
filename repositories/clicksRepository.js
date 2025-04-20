@@ -1,4 +1,4 @@
-const {User,UserShortUrl,AnonymousShortUrl, sequelize} = require('../models/associations');
+const {Click,UserShortUrl,AnonymousShortUrl, sequelize} = require('../models/associations');
 
 class ClickRepository{
     
