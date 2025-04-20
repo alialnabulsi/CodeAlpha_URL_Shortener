@@ -1,6 +1,6 @@
 // models/User.js
 const { DataTypes, Model } = require('sequelize');
-const sequelize = require('../config/db-sequelize');
+const sequelize = require('../config/db');
 const bcrypt = require('bcrypt');
 const moment = require('moment');
 
