@@ -1,4 +1,6 @@
 // models/associations.js
+const sequelize = require('../config/db');
+const User = require('./usersModel');
 const Click = require('./clicksModel');
 const UserShortUrl = require('./userShortUrlsModel');
 const AnonymousShortUrl = require('./anonymousShortUrlsModel');
@@ -15,3 +17,5 @@ Click.belongsTo(AnonymousShortUrl, {
   targetKey: 'short_code',    
   constraints: false          
 });
+
+module.exports = {User, Click, UserShortUrl, AnonymousShortUrl,sequelize}
