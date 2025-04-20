@@ -4,7 +4,9 @@
   "description": "URL shortener service that shortens long URLs and redirects users to the original URL when accessed.",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
