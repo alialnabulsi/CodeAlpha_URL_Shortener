@@ -7,6 +7,18 @@ require('dotenv').config();
 
 const app = express();
 
+// Import routes
+const usersRoute = require('./routes/usersRoute');
+const clicksRoute = require('./routes/clicksRoute');
+const anonymousShortURLsRoute = require('./routes/anonymousShortURLsRoute');
+const userShortURLsRoute = require('./routes/userShortURLsRoute');
+
+
+// use routes
+app.use('/snip.ly/user', usersRoute);
+app.use('/snip.ly/clicks', clicksRoute);
+app.use('/snip.ly/anonymousShortURLs', anonymousShortURLsRoute);
+app.use('/snip.ly/userShortURLs', userShortURLsRoute);
 
 // Middleware
 app.use(cors());
