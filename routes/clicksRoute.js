@@ -4,3 +4,5 @@ const {} = require('../validators/clicksDTO');
 
 
 const router = express.Router();
+
+module.exports = router;

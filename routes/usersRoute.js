@@ -4,3 +4,5 @@ const {} = require('../validators/usersDTO');
 
 
 const router = express.Router();
+
+module.exports = router;

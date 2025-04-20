@@ -4,3 +4,5 @@ const {} = require('../validators/userShortURLsDTO');
 
 
 const router = express.Router();
+
+module.exports = router;

@@ -4,3 +4,5 @@ const {} = require('../validators/anonymousShortURLsDTO');
 
 
 const router = express.Router();
+
+module.exports = router;
