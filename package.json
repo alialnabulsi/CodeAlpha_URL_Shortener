@@ -1,0 +1,36 @@
+{
+  "name": "codealpha_url_shortener",
+  "version": "1.0.0",
+  "description": "URL shortener service that shortens long URLs and redirects users to the original URL when accessed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alialnabulsi/CodeAlpha_URL_Shortener.git"
+  },
+  "keywords": [
+    "URL",
+    "Shortener"
+  ],
+  "author": "Ali Ahmad Al Nabulsi (2025)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alialnabulsi/CodeAlpha_URL_Shortener/issues"
+  },
+  "homepage": "https://github.com/alialnabulsi/CodeAlpha_URL_Shortener#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mariadb": "^3.4.1",
+    "moment": "^2.30.1",
+    "mysql2": "^3.14.0",
+    "nodemon": "^3.1.9",
+    "sequelize": "^6.37.7"
+  }
+}
