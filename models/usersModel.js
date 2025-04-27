@@ -32,6 +32,14 @@ User.init({
     type: DataTypes.STRING(255),
     allowNull: false
   },
+  firstName:{
+    type: DataTypes.STRING(50),
+    allowNull: false,
+  },
+  lastName:{
+    type: DataTypes.STRING(50),
+    allowNull: false,
+  },
   reset_token: {
     type: DataTypes.STRING(64),
     allowNull: true
